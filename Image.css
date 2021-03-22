@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    font-size: 13px;
+    margin-top: 20px;
+    position: relative;
+    text-align: right;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.header a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sign-in {
+    background-color:#4285f4;
+    outline: none;
+    border: 1px solid #4285f4;
+    height: 30px;
+    width: 70px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.logo {
+    
+    padding-top: 120px;
+    padding-left: 500px;
+    width: 150px;
+    height: 150px;
+}
+
+.search-bar {
+    margin-top: 25px;
+    border-radius: 22px;
+    background-color: transparent;
+    transition:k; box-shadow: 100ms;
+    outline: none;
+    color: rgb(228, 222, 222);
+    line-height: 34px;
+    height: 46px;
+    width: 600px;
+    position: relative;
+    left: 25%;
+    border: 1px solid;
+}
+
+.search-bar:hover {
+    border: 2px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(138, 138, 138, 0.1);
+}
+
+.seacrch-icon {
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+
+
+   
+
+}
+
+.search-btn {
+    position: relative;
+    left: 37%;
+    margin-top: 25px;
+    border: none;
+    height: 37px;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+    font-size: 14px;
+
+
+}
+
+.search-btn:hover {
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: #202124;
+}
+
+.languages {
+    position: relative;
+    left: 30%;
+    margin-top: 25px;
+    color: black;
+}
+
+.p {
+    color: black;
+}
+
+
+.languages a {
+    color: #1809b9;
+    font-size: small;
+
+
+}
+
+
+footer {
+    position: absolute;
+    background-color: #ededf1;
+    height: 105px;
+    margin-top: auto;
+    font-size: 15px;
+    padding-left: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.left {
+    float: inline-start;
+}
+
+.foot {
+    float: inline-end;
+    padding-right: 20px;
+}
+
+footer a {
+    color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer h5 {
+    font-size: 15px;
+
+}
